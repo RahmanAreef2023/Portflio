@@ -1,0 +1,54 @@
+.Contact{
+    margin-top: 110px !important;
+    background: linear-gradient(90.21deg, #1C3CA1 -5.91%, #5F0F40 111.58%);
+    height: 650px;
+}
+.Contact img{
+    margin-top: 80px;
+    width: 600px;
+    height: 500px;
+    border-radius: 10%;
+    animation: contact 3s linear infinite;
+    animation-direction: alternate;
+}
+@keyframes contact{
+    0%{
+        transform: translatex(-20px);
+    }
+    50%{transform: translatez(20px);
+    }
+    100%{transform: translatex(-20px);
+    }
+}
+.Contact h2{
+    color: #fff;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: capitalize;
+}
+.Contact input{
+    margin: 20px;
+    text-align: center;
+    background: transparent;
+    width: 20em;
+    height: 3em;
+    margin: 5px;
+    border-radius: 8px;
+}
+.Contact input:hover{
+    background-color: #fff;
+}
+.Contact button{
+    padding: 8px;
+    width:  7em;
+    border-radius: 5px;
+}
+.Contact button:hover{
+    background-color: black;
+    color: #fff;
+}
+.Contact [type="textarea"]{
+    height: 10em;
+    background-color: #fff;
+}

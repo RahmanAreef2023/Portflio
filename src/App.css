@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing : border-box;
+}
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 75px;
+}
+body{
+    font-weight: 400;
+    overflow-x: hidden;
+    position: relative;
+    background-color: black!important;
+    color: #fff !important;
+    font-family: 'centra', sans-serif !important;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+}
+.App{
+    text-align: center;
+}
+
